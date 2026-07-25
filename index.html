@@ -1,98 +1,83 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="TeoriGuiden hjælper dig med at blive klar til teoriprøven."
-    >
-
-    <title>TeoriGuiden</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 24px;
-            font-family: Arial, sans-serif;
-            color: #1d1d1f;
-            background: #f5f5f7;
-        }
-
-        main {
-            width: 100%;
-            max-width: 700px;
-            padding: 48px 32px;
-            text-align: center;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
-        }
-
-        h1 {
-            margin: 0 0 16px;
-            font-size: clamp(2.5rem, 8vw, 4.5rem);
-        }
-
-        p {
-            margin: 0 auto 30px;
-            max-width: 520px;
-            font-size: 1.15rem;
-            line-height: 1.6;
-            color: #555;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 14px 24px;
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            background: #007aff;
-            border-radius: 12px;
-        }
-
-        .button:hover {
-            background: #0062cc;
-        }
-
-        footer {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #777;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TeoriGuiden hjælper dig med at blive klar til teoriprøven med realistiske prøver, skiltequizzer og undervisning i bilens teknik.">
+  <title>TeoriGuiden – Bliv klar til teoriprøven</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <main>
-        <h1>TeoriGuiden</h1>
+  <header class="site-header">
+  <nav class="nav" aria-label="Hovednavigation">
+    <a class="brand" href="index.html">TeoriGuiden</a>
+    <div class="nav-links">
+      <a href="index.html">Forside</a>
+      <a href="support.html">Support</a>
+      <a href="privatlivspolitik.html">Privatliv</a>
+      <a href="vilkaar.html">Vilkår</a>
+    </div>
+  </nav>
+</header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <p class="eyebrow">Din digitale teoriguide</p>
+          <h1>Bliv klar til teoriprøven</h1>
+          <p class="lead">
+            Øv dig med realistiske teoriprøver, skiltequizzer, emneprøver og
+            undervisning i bilens teknik – samlet i én app.
+          </p>
+          <div class="actions">
+            <a class="button" href="[INDSÆT-APP-STORE-LINK]">Hent i App Store</a>
+            <a class="button secondary" href="support.html">Få hjælp</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading">Det får du i TeoriGuiden</h2>
+        <div class="grid">
+          <article class="feature">
+            <h3>Realistiske teoriprøver</h3>
+            <p>Træn under forhold, der minder om den rigtige teoriprøve.</p>
+          </article>
+          <article class="feature">
+            <h3>Skilte og emner</h3>
+            <p>Øv færdselstavler og fokuser på de emner, du vil blive bedre til.</p>
+          </article>
+          <article class="feature">
+            <h3>Bilens teknik</h3>
+            <p>Få styr på de tekniske spørgsmål med video og quizzer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-card">
+        <h2>Har du brug for hjælp?</h2>
         <p>
-            Bliv klar til teoriprøven med realistiske teoriprøver,
-            skiltequizzer og undervisning i bilens teknik.
+          På supportsiden finder du kontaktoplysninger, svar på typiske spørgsmål
+          og hjælp til abonnement, køb, login og kontosletning.
         </p>
-
-        <a class="button" href="mailto:kontakt@teoriguiden.dk">
-            Kontakt os
-        </a>
-
-        <footer>
-            © 2026 TeoriGuiden ApS
-        </footer>
-    </main>
+        <a class="button" href="support.html">Gå til support</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 TeoriGuiden ApS</span>
+    <div class="footer-links">
+      <a href="support.html">Support</a>
+      <a href="privatlivspolitik.html">Privatlivspolitik</a>
+      <a href="vilkaar.html">Vilkår</a>
+      <a href="slet-konto.html">Slet konto</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
